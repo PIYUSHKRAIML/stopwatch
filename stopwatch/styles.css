@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    margin: 0;
+    /* background-color: #f0f0f0;  */
+    background-image: url("alarm-alarm-clock-bed-time-deadline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    overflow: auto;   
+}
+
+.stopwatch {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: lightgrey; 
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.main{
+    max-height: 70%;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
